@@ -11,6 +11,7 @@ An easy and simple but performant Datepicker for the Xojo webeedition
 
 
 Copy this to your App.HTMLHeader property:
+```JavaScript
 <script>
   // DateControl
 function NativeDateControlChanged(controlid){
@@ -30,3 +31,4 @@ function NativeDateControlGetValue(controlid){
 }
 
 </script>
+```
