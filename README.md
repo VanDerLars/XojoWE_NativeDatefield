@@ -1,5 +1,5 @@
 # XojoWE_NativeDatefield
-An easy and simple but performant Datepicker for the Xojo webeedition
+An easy and simple but performant Datepicker for the Xojo WebEdition
 
 
 1. Simply download the Xojo file and drag'n'drop it into your Xojo Project.
