@@ -13,6 +13,8 @@ An easy and simple but performant Datepicker for the Xojo WebEdition
 
 (3.) Add this function to your app object and name it "Date_Covert"
 
+*this function converts a date object into a string (YYY-MM-DD) and a string into a date object.*
+
 ```Xojo
 Public Function Date_Convert(Date_ as Date) as String
   dim a1 as String = cstr(date_.Year)
@@ -64,7 +66,10 @@ End Function
 
 
 
-(4.) Copy this to your App.HTMLHeader property:
+(4.) Copy this to your App.HTMLHeader property
+
+*This script collects the "onblur" event of the date input and triggeres it back to the server with the selected date value. It also gets the current date from the object, when you use the getter in the value property.*
+
 ```JavaScript
 <script>
   // DateControl
