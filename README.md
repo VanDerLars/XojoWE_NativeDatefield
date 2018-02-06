@@ -13,7 +13,7 @@ An easy and simple but performant Datepicker for the Xojo WebEdition
 
 (3.) Add this function to your app object and name it "Date_Covert"
 
-*this function converts a date object into a string (YYY-MM-DD) and a string into a date object.*
+*this function converts a date object into a string (YYYY-MM-DD) and a string into a date object.*
 
 ```Xojo
 Public Function Date_Convert(Date_ as Date) as String
